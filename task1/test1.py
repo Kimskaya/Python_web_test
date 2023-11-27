@@ -7,3 +7,4 @@ def test_word(good_word, bad_word):
 
 if __name__ == "__main__":
     pytest.main(['-vv'])
+    
