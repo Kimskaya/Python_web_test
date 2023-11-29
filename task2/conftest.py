@@ -2,7 +2,7 @@ import pytest
 import requests
 import yaml
 
-with open(r"D:\обучение\veb_test_python\veb_test_py\lec1\task2\config.yaml") as f:
+with open(r"D:\Users\zhdanovы\Desktop\python_web_sem1\task2\config.yaml") as f:
     data = yaml.safe_load(f)
 
 @pytest.fixture
